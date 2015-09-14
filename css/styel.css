@@ -8,6 +8,9 @@ div {
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -81,8 +84,43 @@ div {
 	background-color: #f15a88;
 
 }
-
-
-
+/*Body*/
+.cases .devices {
+    width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
+    width: 33.3333333%;
+    float: left;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.cases .content h2{
+    display: block;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    padding: 0;
+}
+.cases .devices h3 {
+	font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+.cases .content .devices li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.cases .content ul {
+    list-style: none;
+}
 
 
