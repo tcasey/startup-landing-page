@@ -1,5 +1,6 @@
 body {
 background-color: LightGray;
+
 }
 div {
     border: 1px solid Chocolate;
@@ -8,8 +9,80 @@ div {
 .top-navigation {
     background-color: #fff;
 }
+
 .top-navigation > .content {
     width: 970px;
     height: 70px;
     margin: 0 auto;
 }
+.top-navigation .links {
+	float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li {
+	display: inline-block;
+    margin-left: 25px;
+    color:#838994;
+}
+.top-navigation .links .active {
+	color: #838994;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+	cursor: pointer;
+    color: black;
+}
+.logo {
+	padding: 0px 15px; 
+}
+
+/* Background */
+.introduction {
+    background-image: url('../images/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+}
+.introduction .content {
+    padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+}
+.introduction h3 {
+    margin-top: 1.25rem;
+    font-size: 1.563rem;
+    }
+.introduction h1, .introduction h3 {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+.introduction .big-button {
+    text-shadow: none;
+    text-align: center;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    width: 9.688rem;
+    color: white;
+    font-size: 1.125rem;
+    margin: 0 auto;
+    display: block;
+}
+ 	.big-button:hover {
+	background-color: #f15a88;
+
+}
+
+
+
+
+
