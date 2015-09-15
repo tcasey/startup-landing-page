@@ -11,19 +11,29 @@ div {
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-right: 100px;
+    border-top: 0;
+    border-bottom: 1px solid #DDD;
+    z-index: 9999;
 }
 .top-navigation > .content {
     width: 970px;
     height: 70px;
     margin: 0 auto;
-    padding: 0px 15px
+    padding: 0px 15px;
+    box-sixing: ;
 }
 .top-navigation .links {
 	float: right;
     font-family: 'Roboto', sans-serif;
     color: #838994;
-    font-size: 16px;
-    margin-top: 25px;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
+    margin-right: 20px;
     -webkit-font-smoothing: antialiased;
 }
 .top-navigation .links li {
@@ -48,6 +58,8 @@ div {
 }
 .logo {
 	padding: 0px 15px; 
+	height: 4.375rem;
+    margin-left: 30px;
 }
 
 /* Background */
@@ -63,6 +75,11 @@ div {
     margin: 0 auto;
     min-width: 37.5rem;
 }
+.introduction h1 {
+	padding-top: 17.5rem;
+    font-size: 3.125rem;
+    margin-top: 0;
+}
 .introduction h3 {
     margin-top: 1.25rem;
     font-size: 1.563rem;
@@ -71,6 +88,8 @@ div {
     color: white;
     text-align: center;
     font-weight: 300;
+    display: block;
+    margin: .67em 0;
     -webkit-font-smoothing: antialiased;
 }
 .introduction .big-button {
@@ -90,38 +109,33 @@ div {
     -webkit-font-smoothing: antialiased;
 }
  	.big-button:hover {
-	background-color: #f15a88;
+	background-color: rgba(225, 225, 225, 0.85);
 
 }
 /*Body*/
 .cases .devices {
-    width: 33.3333333%;
     display: inline-block;
     /* styles to assist with debugging */
     height: 4em;
-    width: 33.3333333%;
-    float: left;
-    display: list-item;
-    text-align: -webkit-match-parent;
+    width: 33%;
+    
+    text-align: center;
     -webkit-font-smoothing: antialiased;
 }
 .cases .content h2{
-    display: block;
-    font-size: 3em;
-    font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
     text-align: center;
-    font: inherit;
-    vertical-align: baseline;
-    box-sizing: border-box;
-    padding: 0;
+    display: block;
 }
 .cases .devices h3 {
+	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
     font-size: 1.563rem;
     margin: 2.5rem 0px 1.875rem;
     display: block;
-    font-size: 1.17em;
-    font-weight: bold;
 }
 .cases .content .devices li {
     display: list-item;
@@ -136,7 +150,37 @@ div {
     background-color: #fff;
     overflow: auto;
     padding-bottom: 9.375rem;
-
+    text-align: center;
+    margin: 0 auto;
+    padding: 10;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    width: 800px;
+    border-top: 1px solid #ccc;
+    margin-top: 100px;
+}
+.social .content >h5{
+	font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+    text-align: center;
+}
+.social .icons {
+	display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+.social .links >ul {
+	list-style: none;
+	box-sizing: inherit;
 }
 .social .links >li {
 	border-radius: 1.25rem;
