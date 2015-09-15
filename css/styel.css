@@ -1,22 +1,22 @@
+html {
+  box-sizing: border-box;
+}
 body {
-background-color: LightGray;
+background-color: ;
 
 }
 div {
-    border: 1px solid Chocolate;
+    border: ;
 }
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
-    position: fixed;
-	width: 100%;
-	z-index: 9999;
 }
-
 .top-navigation > .content {
     width: 970px;
     height: 70px;
     margin: 0 auto;
+    padding: 0px 15px
 }
 .top-navigation .links {
 	float: right;
@@ -32,12 +32,19 @@ div {
     color:#838994;
 }
 .top-navigation .links .active {
-	color: #838994;
+	color: #4c5058;
     font-weight: 500;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
 }
 .top-navigation .links li:hover {
-	cursor: pointer;
-    color: black;
+    cursor: pointer;
+    color: #333333;
 }
 .logo {
 	padding: 0px 15px; 
@@ -64,6 +71,7 @@ div {
     color: white;
     text-align: center;
     font-weight: 300;
+    -webkit-font-smoothing: antialiased;
 }
 .introduction .big-button {
     text-shadow: none;
@@ -79,6 +87,7 @@ div {
     font-size: 1.125rem;
     margin: 0 auto;
     display: block;
+    -webkit-font-smoothing: antialiased;
 }
  	.big-button:hover {
 	background-color: #f15a88;
@@ -89,13 +98,12 @@ div {
     width: 33.3333333%;
     display: inline-block;
     /* styles to assist with debugging */
-    border: 1px solid black;
-    box-sizing: border-box;
     height: 4em;
     width: 33.3333333%;
     float: left;
     display: list-item;
     text-align: -webkit-match-parent;
+    -webkit-font-smoothing: antialiased;
 }
 .cases .content h2{
     display: block;
@@ -118,9 +126,29 @@ div {
 .cases .content .devices li {
     display: list-item;
     text-align: -webkit-match-parent;
+    -webkit-font-smoothing: antialiased;
 }
 .cases .content ul {
     list-style: none;
 }
+/*Footer & Social Links*/
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
 
+}
+.social .links >li {
+	border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.social .twitter {
+    color: #55acee;
+}
 
